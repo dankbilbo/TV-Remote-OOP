@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TV-remote</title>
+    <script src="Remote.js"></script>
+    <script src="TV.js"></script>
+</head>
+<body>
+<button onclick="remote.turnOnOff(tv)">Switch</button>
+<button onclick="remote.changeVolumeUp(tv)">volume up</button>
+<button onclick="remote.changeVolumeDown(tv)">volume down</button>
+<button id="1" onclick="remote.changeChannel(tv, this.id)">1</button>
+<button id="2" onclick="remote.changeChannel(tv, this.id)">2</button>
+<button id="3" onclick="remote.changeChannel(tv, this.id)">3</button>
+<button id="4" onclick="remote.changeChannel(tv, this.id)">4</button>
+<p id="channel"></p>
+<p id="volume"></p>
+</body>
+</html>
